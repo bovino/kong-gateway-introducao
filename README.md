@@ -10,3 +10,4 @@ Repositório com ambiente de exemplo para rodar o Kong 2.8.1 DBLESS localmente u
 - Para parar de rodar voce pode rodar ` docker-compose down` e ` docker-compose kill`
 - Para ver como rodar um ambiente Kong localmente preparado para o desenvolvimento de plugins customizados use este outro reposítório aqui (https://github.com/bovino/kong-template-with-docker)
 - Tenha em mente que este é um setup visando estudos e aprendizado, não sendo um setup indicado para ambientes produtivos, para ver uma referência de ambiente com características adicionais de robustez e segurança você pode olhar este repositório aqui (https://github.com/Kong/docker-kong/tree/master/compose)
+- Na pasta "insomnia" há um projeto de exemplo que você pode importar no seu ambiente Insomnia já contendo chamadas configuradas para os endpoints e para a Admin API do Kong
