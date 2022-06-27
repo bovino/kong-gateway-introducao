@@ -8,7 +8,7 @@ services:
     routes:
       - name: get-post-data
         methods: [GET, POST]
-        paths: [/v1/my-plugin-data]
+        paths: [/v1/my-route]
         plugins:
           - name: rate-limiting
             config:
@@ -21,11 +21,11 @@ services:
       - name: only-post-https-data
         methods: [POST]
         protocols: [https]
-        paths: [/v2/my-plugin-data]
+        paths: [/v2/my-route]
       - name: post-data-http
         methods: [POST]
         protocols: [http]
-        paths: [/v3/my-plugin-data]
+        paths: [/v3/my-route]
         plugins:
           - name: request-size-limiting
             config:
